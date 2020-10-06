@@ -40,7 +40,7 @@ def ourSetup(request):
 
    request.cls.driver = driver
    yield
-   driver.close()
+   # driver.close()
 
 
 
